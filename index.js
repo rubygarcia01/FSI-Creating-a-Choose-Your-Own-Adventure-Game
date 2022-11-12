@@ -24,7 +24,9 @@ if(firstAnswer === 'left'){
         let thirdAnswer = window.alert('You decide to open the left door and go through it. You start falling endlessly, with no chance of it ever stopping. You fall indefinitely until the end of days. BOTTOMLESS ENDING!')
     }
     else if(secondAnswer === 'right door'){
-        
+        let thirdAnswer = window.prompt('You choose the right door and go through it. You feel dizzy and lightheaded...so you faint. You wake up in a strange parking lot, realizing youre in Level 1. Will you explore the place or stay where you are?')
     }
+    
+
 
 }
