@@ -12,6 +12,16 @@ if(firstAnswer === 'left'){
      else if(secondAnswer === 'ignore'){
         let thirdAnswer = window.prompt('You decide to walk around the figure and ignore it. The short hallway then turns long and the ceiling lights become red. You turn around and see the figure start chasing you. You start running and running. After a minute the hallway seems endless, seeming to never stop. You finally come across two doors, one green and one blue. Which one will you open?')
      }
+         if(thirdAnswer === 'blue door'){
+            let fourthAnswer = window.prompt('You choose to go through the blue door. After going through the blue door, you trip and fall only to realize you have escaped the figure and end up in a party room with yellow walls and balloons. As you get up, a frinedly looking figure approaches and asks to be your friend. Do you accept or keep walking?')
+        
+         }
+         else if(thirdAnswer === 'green door'){
+            let fourthAnswer = window.alert('You chose to go through the green door. As you trip and fall over, you realize you cannot see. The room is completely pitch black. Light does not shine in this darkness, so you starve as you cry in despair in the blackness. DARKNESS ENDING!')
+         }
+        
+
+
 
 
 
@@ -29,17 +39,13 @@ if(firstAnswer === 'left'){
     }
     else if(secondAnswer === 'right door'){
         let thirdAnswer = window.prompt('You choose the right door and go through it. You feel dizzy and lightheaded...so you faint. You wake up in a strange parking lot, realizing youre in Level 1. Will you explore the place or stay where you are?')
-        }
-        if(thirdAnswer === 'explore'){
-            let fourthAnswer = window.prompt('You chose to explore the parking lot. After a while, you come across a person, who seems to be relieved for finding you. Do you trust this person or leave it alone and keep exploring?')
-        } 
         
+    }
 
-
-
-
-    
-
+    if(thirdAnswer === 'explore'){
+            let fourthAnswer = window.prompt('You chose to explore the parking lot. After a while, you come across a person, who seems to be relieved for finding you. Do you trust this person or leave it alone and keep exploring?')
+        
+        } 
 
 
 
