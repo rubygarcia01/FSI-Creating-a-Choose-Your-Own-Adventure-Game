@@ -5,6 +5,9 @@ if(firstAnswer === 'left'){
      lights start flickering. Suddenly a shadow figure with a 
      bright white smile appears right in front of you. 
      Do you approach it or ignore it and walk around the figure?`)
+     if(firstAnswer === approach){
+        let secondAnswer = window.prompt('You approach the figure. He grabs you by the neck and snaps it. You are dead. SHADOW FIGURE ENDING')
+     }
 
 } else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You decide to head right. As 
