@@ -20,4 +20,11 @@ if(firstAnswer === 'left'){
     The note reads Level 0, Find The Exit.You turn around and two red 
     doors stand in front of you. Which door will you open using the key?`)
 
+    if(secondAnswer === 'left door'){
+        let thirdAnswer = window.alert('You decide to open the left door and go through it. You start falling endlessly, with no chance of it ever stopping. You fall indefinitely until the end of days. BOTTOMLESS ENDING!')
+    }
+    else if(secondAnswer === 'right door'){
+        
+    }
+
 }
