@@ -7,7 +7,11 @@ if(firstAnswer === 'left'){
      Do you approach it or ignore it and walk around the figure?`)
      if(secondAnswer === 'approach'){
         let thirdAnswer = window.alert('You decide to approach the shadowy figure. He grabs you by the neck and snaps it. SHADOW FIGURE ENDING!')
+     
      }
+     else if(secondAnswer === 'ignore'){
+        let thirdAnswer = window.prompt('You decide to walk around the figure and ignore it. The short hallway then turns long and the ceiling lights become red. You turn around and see the figure start chasing you. You start running and running. After a minute the hallway seems endless, seeming to never stop. You finally come across two doors, one green and one blue. Which one will you open?')
+    }
 
 } else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You decide to head right. As 
