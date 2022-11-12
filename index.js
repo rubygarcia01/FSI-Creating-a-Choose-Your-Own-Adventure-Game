@@ -27,7 +27,9 @@ if(firstAnswer === 'left'){
     }
     else if(secondAnswer === 'right door'){
         let thirdAnswer = window.prompt('You choose the right door and go through it. You feel dizzy and lightheaded...so you faint. You wake up in a strange parking lot, realizing youre in Level 1. Will you explore the place or stay where you are?')
-    } if(thirdAnswer === 'explore'){
+    } 
+    
+    if(thirdAnswer === 'explore'){
         let fourthAnswer = window.prompt('You chose to explore the parking lot. After a while, you come across a person, who seems to be relieved for finding you. Do you trust this person or leave it alone and keep exploring?')
     } 
     
