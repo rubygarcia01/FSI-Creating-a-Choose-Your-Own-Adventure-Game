@@ -5,9 +5,6 @@ if(firstAnswer === 'left'){
      lights start flickering. Suddenly a shadow figure with a 
      bright white smile appears right in front of you. 
      Do you approach it or ignore it and walk around the figure?`)
-     if(firstAnswer === approach){
-        let secondAnswer = window.prompt('You approach the figure. He grabs you by the neck and snaps it. You are dead. SHADOW FIGURE ENDING')
-     }
 
 } else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You decide to head right. As 
@@ -16,4 +13,18 @@ if(firstAnswer === 'left'){
     The note reads Level 0, Find The Exit.You turn around and two red 
     doors stand in front of you. Which door will you open using the key?`)
 
+
+
 }
+
+if(firstAnswer === 'approach'){
+    let secondAnswer = window.prompt(`You decide to approach the shadowy figure. He grabs you by the neck and snaps it. SHADOW FIGURE ENDING!`)
+
+} else if(firstAnswer === 'left door') {
+    let secondAnswer = window.prompt(`You open the left door and go through it. You fall through and start falling endlessly. With no chance of landing somewhere, you go through a bottomless pit...forever. BOTTOMLESS ENDING!`)
+
+
+
+}
+
+
