@@ -1,12 +1,16 @@
 let firstAnswer  = window.prompt('Suddenly, you wake up and notice you have noclipped into the backrooms successfully. Straight ahead there are two paths that lead left and right, which do you take?')
 if(firstAnswer === 'left'){
-    let secondAnswer = window.prompt(`You come across a stray cat. 
-It scampers off down a small hole, just large enough for you to crawl through. 
-Do you follow it, or continue on your path?`)
+    let secondAnswer = window.prompt(`You decide to 
+    head left. You start walking down a short hallway and the
+     lights start flickering. Suddenly a shadow figure with a 
+     bright white smile appears right in front of you. 
+     Do you approach it or ignore it and walk around the figure?`)
 
 } else if(firstAnswer === 'right') {
-    let secondAnswer = window.prompt(`You come across a snoring dragon. 
-On the other side of him, you see a shiny chest of treasure. Another path would 
-lead you away from the dragon altogether. Which path do you take?`)
+    let secondAnswer = window.prompt(`You decide to head right. As 
+    you're walking down a hallway, you approach an office and see 
+    a note on top of a desk. You open the note and a key falls out. 
+    The note reads Level 0, Find The Exit.You turn around and two red 
+    doors stand in front of you. Which door will you open using the key?`)
 
 }
