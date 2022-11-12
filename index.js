@@ -11,8 +11,10 @@ if(firstAnswer === 'left'){
      }
      else if(secondAnswer === 'ignore'){
         let thirdAnswer = window.prompt('You decide to walk around the figure and ignore it. The short hallway then turns long and the ceiling lights become red. You turn around and see the figure start chasing you. You start running and running. After a minute the hallway seems endless, seeming to never stop. You finally come across two doors, one green and one blue. Which one will you open?')
-        
-    }
+     }
+
+
+
 
 
 } else if(firstAnswer === 'right') {
@@ -27,11 +29,15 @@ if(firstAnswer === 'left'){
     }
     else if(secondAnswer === 'right door'){
         let thirdAnswer = window.prompt('You choose the right door and go through it. You feel dizzy and lightheaded...so you faint. You wake up in a strange parking lot, realizing youre in Level 1. Will you explore the place or stay where you are?')
-    } 
-    
-    if(thirdAnswer === 'explore'){
-        let fourthAnswer = window.prompt('You chose to explore the parking lot. After a while, you come across a person, who seems to be relieved for finding you. Do you trust this person or leave it alone and keep exploring?')
-    } 
+        }
+        if(thirdAnswer === 'explore'){
+            let fourthAnswer = window.prompt('You chose to explore the parking lot. After a while, you come across a person, who seems to be relieved for finding you. Do you trust this person or leave it alone and keep exploring?')
+        } 
+        
+
+
+
+
     
 
 
